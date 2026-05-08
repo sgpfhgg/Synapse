@@ -2,7 +2,7 @@
 
 A shared AI teammate that lives in a Discord server and helps a small project team coordinate. Built as a skills-only contribution on top of [OpenClaw](https://github.com/openclaw/openclaw) for the Samsung PRISM Hackathon.
 
-The Synapse team's working coordinator: it logs decisions, routes tasks, and posts a daily standup — without any new app to install.
+The Synapse team's working coordinator: it logs decisions, routes tasks, and posts a daily standup. without any new app to install.
 
 ## What it does
 
@@ -14,7 +14,7 @@ Three jobs, all triggered from your existing Discord channels:
 
 ## Architecture
 
-Collab Mesh is a **skills-only** build. The whole repo is markdown and JSON — no custom runtime, no Discord client code, no provider SDK calls:
+Collab Mesh is a **skills-only** build. The whole repo is markdown and JSON —> no custom runtime, no Discord client code, no provider SDK calls:
 
 ```
 Discord ↔ OpenClaw extensions/discord ↔ Gateway ↔ Pi agent ↔ Collab Mesh skills
@@ -84,7 +84,7 @@ In a team channel:
 
 ## Status
 
-**v1, hackathon timeframe.** Tested end-to-end on `gemini-2.5-flash` with `agents.defaults.thinkingDefault: off`. The free-tier daily limit on `2.5-flash` is 20 requests — fine for a demo, tight for development iteration. Recommended: enable billing on your Google Cloud project for headroom.
+**v1, hackathon timeframe.** Tested end-to-end on `gemini-2.5-flash` with `agents.defaults.thinkingDefault: off`. The free-tier daily limit on `2.5-flash` is 20 requests which is fine for a demo, tight for development iteration. Recommended: enable billing on your Google Cloud project for headroom.
 
 Known limitations:
 - The sample `members.json` uses a single Discord ID for all three members so a solo developer can demo routing reliably. Replace with real teammate IDs to actually fan out DMs.
