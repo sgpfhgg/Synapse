@@ -76,6 +76,9 @@ openclaw gateway restart
 
 ## Demo flow
 
+Video Demo link:
+https://www.youtube.com/watch?v=ZD-X9JaGYrc
+
 In a team channel:
 
 1. `decision: ship the auth migration on Friday` → bot replies `Logged decision #1 — alice.`
