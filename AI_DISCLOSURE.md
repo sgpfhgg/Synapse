@@ -38,7 +38,7 @@ Development used **Anthropic's Claude** (via the Claude Code interface) as a pai
 
 ## Honest summary
 
-This is a project an individual developer (Sai) built **with** AI, not **by** AI. The product is an AI agent. Development was assisted by Claude as a pair programmer. Every architectural decision, every behavior that ships, and every test was reviewed or executed by the developer. The final responsibility for everything in this repository — design, scope, correctness, and the demo — rests with the human author.
+This is a project a group of developers SaiPrakash J and Priyanshi. Built **with** AI, not **by** AI. The product is an AI agent. Development was assisted by Claude as a pair programmer. Every architectural decision, every behavior that ships, and every test was reviewed or executed by the developer. The final responsibility for everything in this repository — design, scope, correctness, and the demo — rests with the human author.
 
 ## Submitted for
 
