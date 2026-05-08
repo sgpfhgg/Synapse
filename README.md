@@ -95,6 +95,3 @@ Known limitations:
 
 Samsung PRISM × OpenClaw Hackathon, May 2026.
 
-## License
-
-MIT.
