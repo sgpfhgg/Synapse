@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.local
+
+# Runtime data (skills write here at runtime)
+data/
+
+# Node (in case any scripting deps land later)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log

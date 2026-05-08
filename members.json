@@ -1,0 +1,20 @@
+{
+  "team": "Synapse",
+  "members": [
+    {
+      "name": "Sai",
+      "discordId": "793110932770652189",
+      "skills": ["frontend", "react", "typescript", "ui", "css", "animations", "accessibility"]
+    },
+    {
+      "name": "Alex",
+      "discordId": "793110932770652189",
+      "skills": ["backend", "go", "rust", "postgres", "redis", "infrastructure", "devops", "ci/cd"]
+    },
+    {
+      "name": "Jordan",
+      "discordId": "793110932770652189",
+      "skills": ["design", "research", "copywriting", "documentation", "qa", "user-testing"]
+    }
+  ]
+}
